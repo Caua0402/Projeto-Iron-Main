@@ -52,7 +52,7 @@ header{
     width: 134px;
     height: 27px;
     top: 0;
-    left: 1193px;
+    left: 1151px;
 }
 
 .l1{
@@ -69,16 +69,14 @@ header{
 }
 .l5{
     margin-left: 15px;
+    transform: translateY(-2%);
 }
 .l6{
-    margin-top: 6px;
-    margin-left: -4px;
-}
-.l7{
     margin-left: 25px;
 }
-.l8{
+.l7{
     margin-left: 25.92px;
+    transform: translateY(-2%);
 }
 
 main{
@@ -187,21 +185,22 @@ main{
 }
 .seta{
     position: relative;
-    top: 5px;
+    top: 4px;
     left: 13px;
 }
 .IronLateral{
     position: absolute;
-width: 817px;
-height: 183px;
-left: 1180px;
-top: 150px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 140px;
-line-height: 210px;
-letter-spacing: 0.06em;
-color: rgba(138, 45, 94, 0.5);
-transform: rotate(-90deg)
+    width: 817px;
+    height: 183px;
+    left: 1180px;
+    top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 210px;
+    letter-spacing: 0.06em;
+    color: rgba(138, 45, 94, 0.5);
+    transform: rotate(-90deg);
+    z-index: -5;
 }
